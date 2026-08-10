@@ -1,0 +1,1 @@
+This is just a compilation of all of the major issues I have had with Linux, and I decided I’ll write them down just so I can remember, and if anyone else needs these extremely specific fixes, then here you go! 
