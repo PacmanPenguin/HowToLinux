@@ -31,3 +31,12 @@ SysVinit: sudo service NetworkManager restart
 time getent hosts artixlinux.org && time getent hosts artixlinux.org
 ```
 (second output should be faster than the first)
+
+# DNS Caching with ConnMan (Any Init)
+```
+sudo ln -sf /run/connman/resolv.conf /etc/resolv.conf
+```
+**Verify it worked:**
+```
+time getent hosts artixlinux.org && time getent hosts artixlinux.org
+```
