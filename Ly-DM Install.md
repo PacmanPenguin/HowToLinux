@@ -19,7 +19,7 @@ Install Ly:
 git clone https://codeberg.org/fairyglade/ly.git
 cd ly
 zig build
-sudo zig build installsystemd
+sudo zig build installexe -Dinit_system=systemd
 sudo systemctl enable ly@tty2.service
 sudo systemctl disable getty@tty2.service
 ```
